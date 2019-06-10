@@ -1,0 +1,524 @@
+@font-face {
+  font-family: 'Mohave Bold';
+  src:  url('Mohave-Bold.woff2') format('woff2'),
+        url('Mohave-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src:  url('LeagueSpartan-Bold.woff2') format('woff2'),
+        url('LeagueSpartan-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src:  url('Raleway-Bold.woff2') format('woff2'),
+        url('Raleway-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src:  url('Raleway-Light.woff2') format('woff2'),
+        url('Raleway-Light.woff') format('woff');
+}
+
+.hidden
+{
+	display: none;
+}
+
+
+body
+{
+	font-family: 'Raleway Light';
+	font-size: 18px;
+}
+
+#mainNav
+{
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+#mainNav ul
+{
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+#mainNav ul li
+{
+	display: inline-block;
+	padding-left: 70px;
+}
+
+#mainNav ul li a
+{
+	font-family: 'League Spartan';
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+#mainNav ul li a:hover
+{
+	color: #C5DD9B;
+	border-bottom: 6px solid #C5DD9B;
+}
+
+
+#pageTitle
+{
+	font-family: 'Mohave Bold';
+	font-size: 72px;
+	text-align: center;
+	color: #A1CBC9;
+	margin-top: 56px;
+}
+
+/*INDEX*/
+#indexHeader
+{
+	background: url("../images/hero.jpg") center no-repeat;
+	width: 100%;
+	height: 600px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#indexTitle
+{
+	color: white;
+	font-family: 'Mohave Bold';
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 75px;
+	border-bottom: 9px solid #024D5D;
+	font-size: 60px;
+}
+
+#dedication
+{
+	text-align: center;
+	color: white;
+	line-height: 30px;
+}
+
+#quote
+{
+	padding-right: 478px;
+	padding-left: 478px;
+}
+
+.newsCon
+{
+	border-bottom: 1px solid gray;
+	padding: 50px 0 0 0;
+}
+
+.newsCon5
+{
+	border-bottom: 1px solid gray;
+	padding: 50px 0 50px 0;
+}
+
+.news
+{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.news p
+{
+	line-height: 23px;
+}
+
+.news h3
+{
+	font-family: 'Mohave Bold';
+	font-size: 30px;
+	margin-bottom: 0px;
+	color: #024D5D;
+}
+
+.news h4
+{
+	font-family: 'Mohave Bold';
+	font-style: 'Bold';
+	margin-bottom: 20px;
+	font-size: 18px;
+	margin-top: 0px;
+	color: #9DA2A2;
+}
+
+#articleImg
+{
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 50px;
+}
+
+/*Business*/
+#business
+{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c5dd9b+0,a1cbc9+100 */
+background: #c5dd9b; /* Old browsers */
+background: -moz-linear-gradient(top,  #c5dd9b 0%, #a1cbc9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #c5dd9b 0%,#a1cbc9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #c5dd9b 0%,#a1cbc9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5dd9b', endColorstr='#a1cbc9',GradientType=0 ); /* IE6-9 */
+
+}
+
+#business h2
+{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 76px;
+	font-family: 'League Spartan';
+}
+
+#business h3
+{
+	text-align: center;
+	font-size: 24px;
+	font-family: 'League Spartan';
+	padding-bottom: 76px;
+	border-bottom: 1px solid #666666;
+}
+
+#companies
+{
+	padding-top: 57px;
+	padding-bottom: 89px;
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#compCon
+{
+	background-color: white;
+	height: 432px;
+	width: 575px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+#comp
+{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/*Last section*/
+#additional
+{
+	background: url("../images/ack_call.png") center no-repeat;
+	height: 1232px;
+}
+
+#thanks
+{
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+#acknowledgement
+{
+	display: flex;
+	flex-direction: row;
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+#exeVol
+{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-family: 'League Spartan';
+	font-size: 36px;
+	justify-content: space-between;
+	height: 310px;
+	margin-top: 95px;
+}
+
+#positions
+{
+	background-color: #024D5D;
+	width: 600px;
+	margin-left: auto;
+	padding: 88px 0 0 45px;
+	display: flex;
+	flex-direction: column;
+}
+
+#positionRow
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; 
+	margin-bottom: 70px;
+}
+
+#name
+{
+	margin-right: 50px;
+}
+
+#pos
+{
+	font-family: 'Raleway Light';
+	font-size: 21px;
+	color: white;
+	padding-bottom: 5px;
+}
+
+#person
+{
+	font-family: 'Mohave Bold';
+	font-size: 18px;
+	color: white;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+#calling
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	width: 1200px;
+	margin-top: 105px;
+}
+
+#membership 
+{
+	width: 457px;
+	text-align: center;
+	margin-right: 218px;
+	margin-left: 40px;
+}
+
+#membership h3
+{
+	font-family: 'League Spartan';
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+#member
+{
+	font-family: 'League Spartan';
+	margin-bottom: 30px;
+}
+
+#solution
+{
+	font-family: 'Mohave Bold';
+	margin-top: 50px;
+}
+
+#fundraising
+{
+	width: 470px;
+	text-align: center;
+}
+
+#fundraising h3
+{
+	margin-bottom: 40px;
+	font-family: 'League Spartan';
+	font-size: 30px;
+}
+
+#efforts
+{
+	margin-top: 30px;
+}
+
+#emailUs
+{
+	margin-top: 50px;
+}
+
+/*ABOUT*/
+.about
+{
+	padding-top: 39px;
+	padding-bottom: 79px;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+#videoCon
+{
+	background-color: #666666;
+	width: 1200px;
+	height: 400px;
+	margin-bottom: 39px;
+}
+
+#videoCon p
+{
+	color: white;
+	font-size: 72px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.about h3
+{
+	font-family: 'League Spartan';
+	font-size: 32px;
+	margin-bottom: 50px;
+}
+
+#works
+{
+	margin-bottom: 50px;	
+}
+
+#works ul li
+{
+	line-height: 23px;
+}
+
+#aboutImage
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 50px;	
+}
+
+#moreAbout
+{
+	margin-bottom: 30px;
+}
+
+/*LINKS*/
+header
+{
+	background: url("../images/hero.jpg") center no-repeat;
+	width: 100%;
+	height: 400px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.links
+{
+	margin: 0 auto;
+	width: 1200px;
+	margin-bottom: 77px;
+}
+
+.links h2
+{
+	font-family: 'League Spartan';
+	font-size: 32px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.linksList
+{
+	margin-bottom: 40px;
+}
+
+.linksList h3
+{
+	font-family: 'Mohave Bold';
+	font-size: 24px;
+	color: #024D5D;
+	margin-bottom: 30px;
+}
+
+#linksNav ul li
+{
+	list-style-type: none;
+	margin-left: 30px;
+	line-height: 23px;
+}
+
+a
+{
+	font-family: 'Raleway Bold';
+	font-size: 18px;
+	color: #79A13A;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #FF7BAC;
+}
+
+#note h3
+{
+	font-family: 'Raleway Bold';
+	font-size: 21px;
+	text-decoration: underline;
+	color: #0B2E21;
+	margin-bottom: 25px;
+}
+
+#note p
+{
+	font-style: italic;
+}
+
+/*Footer*/
+footer
+{
+	background-color: #0B2E21;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#footerNav
+{
+	padding-top: 60px;
+	margin-left: 60px;
+	margin-bottom: 60px;
+}
+
+#footerNav ul
+{
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+#footerNav ul li
+{
+	display: inline-block;
+	padding-left: 70px;
+}
+
+#footerNav ul li a
+{
+	font-family: 'League Spartan';
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+#footerNav ul li a:hover
+{
+	color:  #9DA2A2;
+}
+
