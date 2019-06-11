@@ -34,6 +34,19 @@ body
 	font-size: 18px;
 }
 
+a
+{
+	font-family: 'Raleway Bold';
+	font-size: 18px;
+	color: #79A13A;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #FF7BAC;
+}
+
 #mainNav
 {
 	margin: 0 auto;
@@ -451,19 +464,6 @@ header
 	list-style-type: none;
 	margin-left: 30px;
 	line-height: 23px;
-}
-
-a
-{
-	font-family: 'Raleway Bold';
-	font-size: 18px;
-	color: #79A13A;
-	text-decoration: none;
-}
-
-a:hover
-{
-	color: #FF7BAC;
 }
 
 #note h3
